@@ -32,5 +32,12 @@ data class Source(
 	val category: String? = null,
 
 	@field:SerializedName("url")
-	val url: String? = null
+	val url: String? = null,
+
+	@field:SerializedName("code")
+	val code: String? = null,
+
+	@field:SerializedName("message")
+	val message: String? = null
+
 )
