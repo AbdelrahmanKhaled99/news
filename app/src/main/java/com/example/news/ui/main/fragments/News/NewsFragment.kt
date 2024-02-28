@@ -94,6 +94,7 @@ class NewsFragment : Fragment(), OnTabSelectedListener {
             binding.tabLayout.addTab(tab)
             tab.tag = source
         }
+        binding.tabLayout.getTabAt(0)?.select()
     }
 
     private fun changeErrorVisibility(isVisible: Boolean, message: String = "") {
